@@ -482,7 +482,14 @@ a {
     }
     
     .hero-actions {
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .hero-actions .btn {
+        width: 100%;
+        max-width: 300px;
     }
     
     .hero-title {
@@ -490,7 +497,19 @@ a {
     }
     
     .nav {
-        display: none; /* simple mobile hide for now */
+        display: none;
+    }
+    
+    .store-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .store-btn {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
     }
     
     .footer-top {
