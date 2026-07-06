@@ -34,6 +34,7 @@ body {
     color: var(--text-primary);
     line-height: 1.5;
     overflow-x: hidden;
+    word-break: keep-all;
 }
 
 a {
@@ -67,6 +68,8 @@ a {
     cursor: pointer;
     text-align: center;
     transition: transform 0.2s, box-shadow 0.2s;
+    word-break: keep-all;
+    white-space: nowrap;
 }
 
 .btn:hover {
@@ -213,6 +216,7 @@ a {
     font-weight: 800;
     letter-spacing: -1px;
     margin-bottom: 24px;
+    word-break: keep-all;
 }
 
 .text-gradient {
@@ -482,7 +486,7 @@ a {
     }
     
     .hero-title {
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
     
     .nav {
